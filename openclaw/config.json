@@ -1,0 +1,30 @@
+{
+  "gateway": {
+    "remote_url": "wss://hebertpaes.com",
+    "port": 18789
+  },
+  "auth_profiles": {
+    "github": {
+      "provider": "github",
+      "mode": "oauth"
+    },
+    "gmail": {
+      "provider": "google",
+      "mode": "oauth"
+    },
+    "openai-codex": {
+      "provider": "openai-codex",
+      "mode": "oauth"
+    }
+  },
+  "agents": {
+    "main": {
+      "model": "claude-opus-4-6",
+      "provider": "anthropic"
+    },
+    "codex": {
+      "model": "codex",
+      "provider": "openai-codex"
+    }
+  }
+}
